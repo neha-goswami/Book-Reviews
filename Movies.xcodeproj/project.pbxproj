@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0D50DE1EEED2A0000AF2DB /* RatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D50DD1EEED2A0000AF2DB /* RatingViewController.m */; };
+		DE0D50E11EEF2491000AF2DB /* FinishRatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D50E01EEF2491000AF2DB /* FinishRatingViewController.m */; };
+		DE28D8001EE9C28B000C82D4 /* Bookshelf.m in Sources */ = {isa = PBXBuildFile; fileRef = DE28D7FF1EE9C28B000C82D4 /* Bookshelf.m */; };
+		DE28D8041EE9C390000C82D4 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = DE28D8031EE9C390000C82D4 /* Book.m */; };
+		DEC66C011EEAD2F000BBB52D /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC66C001EEAD2F000BBB52D /* CoverView.m */; };
+		DED066FD1EF06F1B00328CB8 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED066FC1EF06F1B00328CB8 /* StatsViewController.m */; };
+		DED067001EF07DE100328CB8 /* BookViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DED066FF1EF07DE100328CB8 /* BookViewCell.m */; };
+		DEDD5B4E1EE8A10F00276654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDD5B4D1EE8A10F00276654 /* main.m */; };
+		DEDD5B511EE8A10F00276654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDD5B501EE8A10F00276654 /* AppDelegate.m */; };
+		DEDD5B541EE8A10F00276654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDD5B531EE8A10F00276654 /* ViewController.m */; };
+		DEDD5B571EE8A10F00276654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDD5B551EE8A10F00276654 /* Main.storyboard */; };
+		DEDD5B591EE8A10F00276654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDD5B581EE8A10F00276654 /* Assets.xcassets */; };
+		DEDD5B5C1EE8A10F00276654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDD5B5A1EE8A10F00276654 /* LaunchScreen.storyboard */; };
+		DEDD5B671EE8A10F00276654 /* MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDD5B661EE8A10F00276654 /* MoviesTests.m */; };
+		DEDD5B721EE8A10F00276654 /* MoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDD5B711EE8A10F00276654 /* MoviesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDD5B631EE8A10F00276654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDD5B411EE8A10F00276654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDD5B481EE8A10F00276654;
+			remoteInfo = Movies;
+		};
+		DEDD5B6E1EE8A10F00276654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDD5B411EE8A10F00276654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDD5B481EE8A10F00276654;
+			remoteInfo = Movies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0D50DC1EEED2A0000AF2DB /* RatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingViewController.h; sourceTree = "<group>"; };
+		DE0D50DD1EEED2A0000AF2DB /* RatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingViewController.m; sourceTree = "<group>"; };
+		DE0D50DF1EEF2491000AF2DB /* FinishRatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishRatingViewController.h; sourceTree = "<group>"; };
+		DE0D50E01EEF2491000AF2DB /* FinishRatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishRatingViewController.m; sourceTree = "<group>"; };
+		DE28D7FE1EE9C28B000C82D4 /* Bookshelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookshelf.h; sourceTree = "<group>"; };
+		DE28D7FF1EE9C28B000C82D4 /* Bookshelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookshelf.m; sourceTree = "<group>"; };
+		DE28D8021EE9C390000C82D4 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		DE28D8031EE9C390000C82D4 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		DEC66BFF1EEAD2F000BBB52D /* CoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverView.h; sourceTree = "<group>"; };
+		DEC66C001EEAD2F000BBB52D /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
+		DED066FB1EF06F1B00328CB8 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		DED066FC1EF06F1B00328CB8 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		DED066FE1EF07DE100328CB8 /* BookViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookViewCell.h; path = ../BookViewCell.h; sourceTree = "<group>"; };
+		DED066FF1EF07DE100328CB8 /* BookViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookViewCell.m; path = ../BookViewCell.m; sourceTree = "<group>"; };
+		DEDD5B491EE8A10F00276654 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDD5B4D1EE8A10F00276654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEDD5B4F1EE8A10F00276654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEDD5B501EE8A10F00276654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEDD5B521EE8A10F00276654 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEDD5B531EE8A10F00276654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEDD5B561EE8A10F00276654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDD5B581EE8A10F00276654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDD5B5B1EE8A10F00276654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEDD5B5D1EE8A10F00276654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDD5B621EE8A10F00276654 /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDD5B661EE8A10F00276654 /* MoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesTests.m; sourceTree = "<group>"; };
+		DEDD5B681EE8A10F00276654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDD5B6D1EE8A10F00276654 /* MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDD5B711EE8A10F00276654 /* MoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesUITests.m; sourceTree = "<group>"; };
+		DEDD5B731EE8A10F00276654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDD5B461EE8A10F00276654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD5B5F1EE8A10F00276654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD5B6A1EE8A10F00276654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE28D8011EE9C290000C82D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE28D7FE1EE9C28B000C82D4 /* Bookshelf.h */,
+				DE28D7FF1EE9C28B000C82D4 /* Bookshelf.m */,
+				DE28D8021EE9C390000C82D4 /* Book.h */,
+				DE28D8031EE9C390000C82D4 /* Book.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEDD5B401EE8A10F00276654 = {
+			isa = PBXGroup;
+			children = (
+				DEDD5B4B1EE8A10F00276654 /* Movies */,
+				DEDD5B651EE8A10F00276654 /* MoviesTests */,
+				DEDD5B701EE8A10F00276654 /* MoviesUITests */,
+				DEDD5B4A1EE8A10F00276654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDD5B4A1EE8A10F00276654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD5B491EE8A10F00276654 /* Movies.app */,
+				DEDD5B621EE8A10F00276654 /* MoviesTests.xctest */,
+				DEDD5B6D1EE8A10F00276654 /* MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDD5B4B1EE8A10F00276654 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				DED066FE1EF07DE100328CB8 /* BookViewCell.h */,
+				DED066FF1EF07DE100328CB8 /* BookViewCell.m */,
+				DEDD5B521EE8A10F00276654 /* ViewController.h */,
+				DEDD5B531EE8A10F00276654 /* ViewController.m */,
+				DE0D50DC1EEED2A0000AF2DB /* RatingViewController.h */,
+				DE0D50DD1EEED2A0000AF2DB /* RatingViewController.m */,
+				DEDD5B551EE8A10F00276654 /* Main.storyboard */,
+				DED066FB1EF06F1B00328CB8 /* StatsViewController.h */,
+				DED066FC1EF06F1B00328CB8 /* StatsViewController.m */,
+				DE0D50DF1EEF2491000AF2DB /* FinishRatingViewController.h */,
+				DE0D50E01EEF2491000AF2DB /* FinishRatingViewController.m */,
+				DEC66BFF1EEAD2F000BBB52D /* CoverView.h */,
+				DEC66C001EEAD2F000BBB52D /* CoverView.m */,
+				DEDD5B581EE8A10F00276654 /* Assets.xcassets */,
+				DEDD5B5A1EE8A10F00276654 /* LaunchScreen.storyboard */,
+				DEDD5B5D1EE8A10F00276654 /* Info.plist */,
+				DE28D8011EE9C290000C82D4 /* Model */,
+				DEDD5B4C1EE8A10F00276654 /* Supporting Files */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		DEDD5B4C1EE8A10F00276654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD5B501EE8A10F00276654 /* AppDelegate.m */,
+				DEDD5B4F1EE8A10F00276654 /* AppDelegate.h */,
+				DEDD5B4D1EE8A10F00276654 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEDD5B651EE8A10F00276654 /* MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD5B661EE8A10F00276654 /* MoviesTests.m */,
+				DEDD5B681EE8A10F00276654 /* Info.plist */,
+			);
+			path = MoviesTests;
+			sourceTree = "<group>";
+		};
+		DEDD5B701EE8A10F00276654 /* MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD5B711EE8A10F00276654 /* MoviesUITests.m */,
+				DEDD5B731EE8A10F00276654 /* Info.plist */,
+			);
+			path = MoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDD5B481EE8A10F00276654 /* Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDD5B761EE8A10F00276654 /* Build configuration list for PBXNativeTarget "Movies" */;
+			buildPhases = (
+				DEDD5B451EE8A10F00276654 /* Sources */,
+				DEDD5B461EE8A10F00276654 /* Frameworks */,
+				DEDD5B471EE8A10F00276654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movies;
+			productName = Movies;
+			productReference = DEDD5B491EE8A10F00276654 /* Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDD5B611EE8A10F00276654 /* MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDD5B791EE8A10F00276654 /* Build configuration list for PBXNativeTarget "MoviesTests" */;
+			buildPhases = (
+				DEDD5B5E1EE8A10F00276654 /* Sources */,
+				DEDD5B5F1EE8A10F00276654 /* Frameworks */,
+				DEDD5B601EE8A10F00276654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDD5B641EE8A10F00276654 /* PBXTargetDependency */,
+			);
+			name = MoviesTests;
+			productName = MoviesTests;
+			productReference = DEDD5B621EE8A10F00276654 /* MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEDD5B6C1EE8A10F00276654 /* MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDD5B7C1EE8A10F00276654 /* Build configuration list for PBXNativeTarget "MoviesUITests" */;
+			buildPhases = (
+				DEDD5B691EE8A10F00276654 /* Sources */,
+				DEDD5B6A1EE8A10F00276654 /* Frameworks */,
+				DEDD5B6B1EE8A10F00276654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDD5B6F1EE8A10F00276654 /* PBXTargetDependency */,
+			);
+			name = MoviesUITests;
+			productName = MoviesUITests;
+			productReference = DEDD5B6D1EE8A10F00276654 /* MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDD5B411EE8A10F00276654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Neha Goswami";
+				TargetAttributes = {
+					DEDD5B481EE8A10F00276654 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2N9FVENJX8;
+						ProvisioningStyle = Automatic;
+					};
+					DEDD5B611EE8A10F00276654 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2N9FVENJX8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEDD5B481EE8A10F00276654;
+					};
+					DEDD5B6C1EE8A10F00276654 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2N9FVENJX8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEDD5B481EE8A10F00276654;
+					};
+				};
+			};
+			buildConfigurationList = DEDD5B441EE8A10F00276654 /* Build configuration list for PBXProject "Movies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDD5B401EE8A10F00276654;
+			productRefGroup = DEDD5B4A1EE8A10F00276654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDD5B481EE8A10F00276654 /* Movies */,
+				DEDD5B611EE8A10F00276654 /* MoviesTests */,
+				DEDD5B6C1EE8A10F00276654 /* MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDD5B471EE8A10F00276654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDD5B5C1EE8A10F00276654 /* LaunchScreen.storyboard in Resources */,
+				DEDD5B591EE8A10F00276654 /* Assets.xcassets in Resources */,
+				DEDD5B571EE8A10F00276654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD5B601EE8A10F00276654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD5B6B1EE8A10F00276654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDD5B451EE8A10F00276654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE28D8041EE9C390000C82D4 /* Book.m in Sources */,
+				DEDD5B541EE8A10F00276654 /* ViewController.m in Sources */,
+				DEDD5B511EE8A10F00276654 /* AppDelegate.m in Sources */,
+				DE0D50DE1EEED2A0000AF2DB /* RatingViewController.m in Sources */,
+				DE0D50E11EEF2491000AF2DB /* FinishRatingViewController.m in Sources */,
+				DEDD5B4E1EE8A10F00276654 /* main.m in Sources */,
+				DEC66C011EEAD2F000BBB52D /* CoverView.m in Sources */,
+				DE28D8001EE9C28B000C82D4 /* Bookshelf.m in Sources */,
+				DED066FD1EF06F1B00328CB8 /* StatsViewController.m in Sources */,
+				DED067001EF07DE100328CB8 /* BookViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD5B5E1EE8A10F00276654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDD5B671EE8A10F00276654 /* MoviesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD5B691EE8A10F00276654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDD5B721EE8A10F00276654 /* MoviesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDD5B641EE8A10F00276654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDD5B481EE8A10F00276654 /* Movies */;
+			targetProxy = DEDD5B631EE8A10F00276654 /* PBXContainerItemProxy */;
+		};
+		DEDD5B6F1EE8A10F00276654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDD5B481EE8A10F00276654 /* Movies */;
+			targetProxy = DEDD5B6E1EE8A10F00276654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDD5B551EE8A10F00276654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDD5B561EE8A10F00276654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDD5B5A1EE8A10F00276654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDD5B5B1EE8A10F00276654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDD5B741EE8A10F00276654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEDD5B751EE8A10F00276654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDD5B771EE8A10F00276654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2N9FVENJX8;
+				INFOPLIST_FILE = Movies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngoswami.Movies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEDD5B781EE8A10F00276654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2N9FVENJX8;
+				INFOPLIST_FILE = Movies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngoswami.Movies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEDD5B7A1EE8A10F00276654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2N9FVENJX8;
+				INFOPLIST_FILE = MoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngoswami.MoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies.app/Movies";
+			};
+			name = Debug;
+		};
+		DEDD5B7B1EE8A10F00276654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2N9FVENJX8;
+				INFOPLIST_FILE = MoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngoswami.MoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies.app/Movies";
+			};
+			name = Release;
+		};
+		DEDD5B7D1EE8A10F00276654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2N9FVENJX8;
+				INFOPLIST_FILE = MoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngoswami.MoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Movies;
+			};
+			name = Debug;
+		};
+		DEDD5B7E1EE8A10F00276654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2N9FVENJX8;
+				INFOPLIST_FILE = MoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngoswami.MoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Movies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDD5B441EE8A10F00276654 /* Build configuration list for PBXProject "Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDD5B741EE8A10F00276654 /* Debug */,
+				DEDD5B751EE8A10F00276654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDD5B761EE8A10F00276654 /* Build configuration list for PBXNativeTarget "Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDD5B771EE8A10F00276654 /* Debug */,
+				DEDD5B781EE8A10F00276654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDD5B791EE8A10F00276654 /* Build configuration list for PBXNativeTarget "MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDD5B7A1EE8A10F00276654 /* Debug */,
+				DEDD5B7B1EE8A10F00276654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDD5B7C1EE8A10F00276654 /* Build configuration list for PBXNativeTarget "MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDD5B7D1EE8A10F00276654 /* Debug */,
+				DEDD5B7E1EE8A10F00276654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDD5B411EE8A10F00276654 /* Project object */;
+}
